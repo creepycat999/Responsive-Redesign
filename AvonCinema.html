@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link 
+        href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Poppins:wght@400;700;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href ="src/style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap" rel="stylesheet">
+        <title>Ariana's Portfolio</title>
+        <meta charset="UTF-8" />
+        <script src="https://kit.fontawesome.com/b56543adaf.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <section class = "hero">
+            <nav>
+                <div> LOGO </div>
+                <ul id = "nav-list">
+                    <li><a href = "#about-me">About Me</a></li>
+                    <li><a href = "#projects">Projects</a></li>
+                    <li><a href = "#contact">Contact</a></li>
+                </ul>
+                <button class = "hamburger" id = "hamburger">
+                    <i class = "fas fa-bars"> </i>
+                </button>
+                <button onclick="topFunction()" id="myBtn" title="Go to top">
+                    top
+                    <i class="fa-solid fa-arrow-up"></i>
+                </button>
+            </nav> 
+            <div class="hero-area">
+                <div class="hero-text"> 
+                    <h1>Ariana</h1>
+                    <p>CS Major at Brown University</p> 
+                    <div class = "button">About Me</div>
+                </div>
+            </div>
+        </section>
+        <section class = "aboutme-section" id = "about-me">
+            <div class = "info">
+                <h2>About Me</h2>
+                <p> hello my name is Ariana and i am a junior at brown studying computer science and native american studies</p>
+            </div>
+            <div class = "headshot-container">
+                <img class = "headshot" src = "src/images/headshot.jpeg" alt = "photo of Ariana against a green background"/>
+            </div>
+        </section>
+        <section class = "projects-section" id = "projects">
+            <h2>Projects</h2>
+            <div class = "project-container">
+                <div class = "project-card">
+                    <img class = "project-image" src = "" alt = ""/>
+                    <h3>Project 1</h3>
+                    <p class = "sub-text"> this is my first project</p>
+                    <hr/>
+                    <p class = "sub-text"><a class = "project-link" href = ""> view here </a></p>
+                </div>
+                <div class = "project-card">
+                    <img class = "project-image" src = "" alt = ""/>
+                    <h3>Project 2</h3>
+                    <p class = "sub-text"> this is my first project</p>
+                    <hr/>
+                    <p class = "sub-text"><a class = "project-link" href = ""> view here </a></p>
+                </div>
+                <div class = "project-card">
+                    <img class = "project-image" src = "" alt = ""/>
+                    <h3>Project 3</h3>
+                    <p class = "sub-text"> this is my first project</p>
+                    <hr/>
+                    <p class = "sub-text"><a class = "project-link" href = ""> view here </a></p>
+                </div>
+                <div class = "project-card">
+                    <img class = "project-image" src = "" alt = ""/>
+                    <h3>Project 4</h3>
+                    <p class = "sub-text"> this is my first project</p>
+                    <hr/>
+                    <p class = "sub-text"><a class = "project-link" href = ""> view here </a></p>
+                </div>
+
+            </div>
+        </section>
+        <footer id = "contact">
+            <h2>Contact Me</h2>
+            <p>ariana_clark@brown.edu</p>
+            <div class = "socials">
+                <button onclick="topFunction()" id="icon" title="LinkedIn" href = "www.linkedin.com/in/arianamclark">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </button>
+                <button onclick="topFunction()" id="icon" title="LinkedIn" href = "https://github.com/creepycat999">
+                    <i class="fa-brands fa-github"></i>
+                </button>
+                <button onclick="topFunction()" id="icon" title="LinkedIn" href = "https://github.com/creepycat999">
+                    <i class="fa-solid fa-envelope"></i>
+                </button>
+            </div>
+        </footer>
+        <script src = "src/app.js">
+        </script>
+    </body>
+</html>
